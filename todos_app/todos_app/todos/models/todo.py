@@ -34,6 +34,10 @@ class Todo(models.Model):
     state = models.BooleanField(
         default=False,
     )
+    description = models.TextField(
+        null=True,
+        blank=True,
+    )
     owner = models.ForeignKey(
         Person,
         on_delete=models.CASCADE,
