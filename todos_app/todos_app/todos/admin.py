@@ -5,7 +5,7 @@ from todos_app.todos.models.todo import Person, Category
 
 
 class TodoAdmin(admin.ModelAdmin):
-    list_display = ['text', 'owner']
+    list_display = ['title', 'owner']
     sorted_by = ['text', ]
     list_filter = ['owner', ]
 

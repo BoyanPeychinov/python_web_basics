@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21958cab-e7ea-4871-bfa9-3949c56cea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0002_todo_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0003_todo_person_responsible.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0004_auto_20210607_2351.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0005_auto_20210607_2355.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0006_auto_20210608_0021.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../to_do/.idea/to_do.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todos_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_unit_and_testing_integration/lost_and_found/.idea/lost_and_found.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todos_app/forms_workshop/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0010_rename_text_todo_title.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django_101/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django_101/django_101/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/cities/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django_101/django_101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django_101/django_101/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/todos_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todos_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/todos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/todos/models/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/models/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/todos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/todos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +33,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tdObbROfU5uNrHGxiFNpYdJ95g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,10 +55,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,9 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\templates\todo_app" />
+      <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\templates" />
+      <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\todos_app" />
       <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\todos_app\todos\models" />
       <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\todos_app\todos" />
-      <recent name="D:\Developer\SoftUni\python_web_basics\todos_app\todos_app" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,7 +111,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623095572917</updated>
-      <workItem from="1623095692626" duration="5518000" />
+      <workItem from="1623095692626" duration="5880000" />
+      <workItem from="1623164407777" duration="863000" />
+      <workItem from="1623515353645" duration="601000" />
+      <workItem from="1623583875294" duration="27000" />
+      <workItem from="1623584275116" duration="3728000" />
+      <workItem from="1623682186218" duration="2914000" />
+      <workItem from="1623696182028" duration="27000" />
+      <workItem from="1624097933754" duration="254000" />
+      <workItem from="1624100469216" duration="10080000" />
+      <workItem from="1624373543381" duration="12127000" />
+      <workItem from="1624436613927" duration="2484000" />
     </task>
     <servers />
   </component>
@@ -104,5 +138,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/todos_app/forms_workshop/views.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/todos_app/todos/views.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/todos_app/todos/views.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
