@@ -65,7 +65,7 @@
 #     return redirect('/')
 from django.shortcuts import render, redirect
 
-from todos_app.todos.forms import CreateTodoForm, UpdateTodoForm
+from todos_app.todos.forms import CreateTodoForm, UpdateTodoForm, TodoForm
 from todos_app.todos.models import Todo
 
 
@@ -76,17 +76,12 @@ def index(request):
     return render(request, 'todo_app/index.html', context)
 
 
-def create_todo(request):
-    form = CreateTodoForm(request.POST)
+def create_todo2(request):
+    form = TodoForm(request.POST)
 
     if request.method == "POST":
         if form.is_valid():
-            todo = Todo(
-                title=form.cleaned_data['title'],
-                description=form.cleaned_data['description'],
-                state=False,
-            )
-            todo.save()
+            form.save()
             return redirect('index')
 
     context = {
@@ -95,25 +90,66 @@ def create_todo(request):
     return render(request, 'todo_app/create.html', context)
 
 
-def update_todo(request, pk):
+# def create_todo(request):
+#     form = CreateTodoForm(request.POST)
+#
+#     if request.method == "POST":
+#         if form.is_valid():
+#             todo = Todo(
+#                 title=form.cleaned_data['title'],
+#                 description=form.cleaned_data['description'],
+#                 state=False,
+#             )
+#             todo.save()
+#             return redirect('index')
+#
+#     context = {
+#         'form': form
+#     }
+#     return render(request, 'todo_app/create.html', context)
+
+
+def show_form(request, form):
+    context = {
+        'form': form,
+    }
+    return render(request, 'todo_app/edit.html', context)
+
+
+def update_todo2(request, pk):
     todo = Todo.objects.get(pk=pk)
 
     if request.method == "GET":
-        context = {
-            'form': UpdateTodoForm(initial=todo.__dict__)
-        }
-        return render(request, 'todo_app/edit.html', context)
+        return show_form(request, TodoForm(initial=todo.__dict__))
 
     else:
-        form = UpdateTodoForm(request.POST)
+        form = TodoForm(request.POST, instance=todo)
 
         if form.is_valid():
-            todo.title = form.cleaned_data['title']
-            todo.description = form.cleaned_data['description']
-            todo.state = form.cleaned_data['state']
-
             todo.save()
             return redirect('index')
+
+        return show_form(request, form)
+
+# def update_todo(request, pk):
+#     todo = Todo.objects.get(pk=pk)
+#
+#     if request.method == "GET":
+#         context = {
+#             'form': UpdateTodoForm(initial=todo.__dict__)
+#         }
+#         return render(request, 'todo_app/edit.html', context)
+#
+#     else:
+#         form = UpdateTodoForm(request.POST)
+#
+#         if form.is_valid():
+#             todo.title = form.cleaned_data['title']
+#             todo.description = form.cleaned_data['description']
+#             todo.state = form.cleaned_data['state']
+#
+#             todo.save()
+#             return redirect('index')
 
 
 def delete_todo(request, pk):

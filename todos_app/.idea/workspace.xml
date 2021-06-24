@@ -3,23 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="21958cab-e7ea-4871-bfa9-3949c56cea10" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../10_unit_and_testing_integration/lost_and_found/.idea/lost_and_found.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/forms_workshop/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todos_app/todos/migrations/0010_rename_text_todo_title.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django_101/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django_101/django_101/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/cities/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django_101/django_101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django_101/django_101/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django_101/django_101/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/todos_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todos_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/todos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todo_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todo_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_app/todos/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos_app/todos/models/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/models/todo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos_app/todos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos_app/todos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -121,7 +110,7 @@
       <workItem from="1624097933754" duration="254000" />
       <workItem from="1624100469216" duration="10080000" />
       <workItem from="1624373543381" duration="12127000" />
-      <workItem from="1624436613927" duration="2484000" />
+      <workItem from="1624436613927" duration="8362000" />
     </task>
     <servers />
   </component>
@@ -150,12 +139,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/todos_app/todos/views.py</url>
-          <line>79</line>
+          <line>93</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/todos_app/todos/views.py</url>
-          <line>100</line>
+          <line>136</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
