@@ -1,7 +1,9 @@
+{% load static %}
+
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <title>Expenses Tracker</title>
 </head>
 
@@ -9,10 +11,10 @@
     
 <nav>
     <ul>
-        <li class="img"><img src="./static/images/dollar.png"></li>
+        <li class="img"><img src="../static/images/dollar.png"></li>
         <li><a href="/">Expenses Tracker</a></li>
         
-        <li class="right"><a href="/profile">Profile</a></li>
+        <li class="right"><a href="{% url 'profile details' %}">Profile</a></li>
         
     </ul>
 </nav>
@@ -21,17 +23,17 @@
 <h1>Your Profile</h1>
 <div class="expenses-container">
     <div class="expense-container">
-        <h2>Tanya Staneva</h2>
+        <h2>{{ profile.first_name }} {{ profile.last_name }}</h2>
         <hr>
-        <img src="./static/images/user.png">
+        <img src="../static/images/user.png">
         <p>In your profile you can edit your profile data</p>
         <div class="expense-detail">
             <div>
-                <p>Budget Left: 100.0$</p>
+                <p>Budget Left: {{ profile.budget_left }}$</p>
             </div>
             <div class="right">
-                <a class="button edit" href="/profile/edit">Edit Profile</a>
-                <a class="button delete" href="/profile/delete">Delete Profile</a>
+                <a class="button edit" href="{% url 'edit profile' %}">Edit Profile</a>
+                <a class="button delete" href="{% url 'delete profile' %}">Delete Profile</a>
             </div>
         </div>
     </div>

@@ -1,7 +1,9 @@
+{% load static %}
+
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <title>Expenses Tracker</title>
 </head>
 
@@ -9,10 +11,10 @@
     
 <nav>
     <ul>
-        <li class="img"><img src="./static/images/dollar.png"></li>
+        <li class="img"><img src="../static/images/dollar.png"></li>
         <li><a href="/">Expenses Tracker</a></li>
         
-        <li class="right"><a href="/profile">Profile</a></li>
+        <li class="right"><a href="{% url 'profile details' %}">Profile</a></li>
         
     </ul>
 </nav>
@@ -20,16 +22,9 @@
         
 <h1>Enter your new data</h1>
 <div class="form">
-    <form method="POST">
-        <input type="hidden" name="csrfmiddlewaretoken" value="M6BlBJtidtTAjIVkeKKrO0pzGsJVBeMuJUjjBOd11b8tiULJ0qeyFSClYJH4npVf">
-        <label for="budget">Budget</label>
-        <input type="number" name="budget" value="1500" required="" id="id_budget">
-
-        <label for="firstName">First Name</label>
-        <input type="text" name="first_name" value="Tanya" maxlength="15" required="" id="id_first_name">
-
-        <label for="lastName">Last Name</label>
-        <input type="text" name="last_name" value="Staneva" maxlength="15" required="" id="id_last_name">
+    <form method="POST" action="{% url 'edit profile' %}">
+        {% csrf_token %}
+        {{ form }}
 
         <input type="submit" value="Edit">
     </form>
