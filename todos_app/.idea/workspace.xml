@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21958cab-e7ea-4871-bfa9-3949c56cea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../10_unit_and_testing_integration/lost_and_found/.idea/lost_and_found.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todo_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todo_app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/todos/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos_app/todos/models/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/models/todo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/todos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos_app/todos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos_app/todos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +106,7 @@
       <workItem from="1624100469216" duration="10080000" />
       <workItem from="1624373543381" duration="12127000" />
       <workItem from="1624436613927" duration="8362000" />
+      <workItem from="1624786791350" duration="1690000" />
     </task>
     <servers />
   </component>
