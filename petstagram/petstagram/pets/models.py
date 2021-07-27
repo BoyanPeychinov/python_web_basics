@@ -1,3 +1,4 @@
+from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
 from django.db import models
 
@@ -6,6 +7,9 @@ from django.db import models
 # def is_positive(value):
 #     if value <= 0:
 #         raise ValidationError
+
+
+UserModel = get_user_model()
 
 
 class Pet(models.Model):
@@ -27,6 +31,11 @@ class Pet(models.Model):
     )
     age = models.PositiveIntegerField()
 
+    user = models.ForeignKey(
+        UserModel,
+        on_delete=models.CASCADE,
+    )
+
     # age = models.IntegerField(
     #     validators=[
     #         models.Min(1)
@@ -42,3 +51,7 @@ class Pet(models.Model):
 
 class Like(models.Model):
     pet = models.ForeignKey(Pet, on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        UserModel,
+        on_delete=models.CASCADE,
+    )
